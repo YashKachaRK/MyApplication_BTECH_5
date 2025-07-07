@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1F1F1"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/nameRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#333333"
+            android:textColor="#333333"
+            android:hint="Full Name"
+            android:padding="12dp"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emailRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColorHint="#333333"
+            android:textColor="#333333"
+            android:padding="12dp"
+            android:layout_marginTop="12dp" />
+
+        <RadioGroup
+            android:id="@+id/genderGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="12dp">
+
+            <RadioButton
+                android:id="@+id/genderMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#333333"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/genderFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textColor="#333333"
+                android:layout_marginStart="24dp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/phoneRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:padding="12dp"
+            android:textColorHint="#333333"
+            android:textColor="#333333"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColorHint="#333333"
+            android:textColor="#333333"
+
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/confPasswordRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:padding="12dp"
+            android:textColor="#333333"
+            android:textColorHint="#333333"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/gotologin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Do You Have Alredy Register? Login"
+            android:textColor="#3F51B5"
+            android:textSize="14sp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
