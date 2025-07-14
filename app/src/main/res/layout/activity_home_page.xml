@@ -11,17 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:layout_gravity="center"
-
         >
+
         <TextView
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:text="HomePage"
-            android:textSize="100dp"
+            android:text="Date and Time Module"
+            android:textSize="30dp"
+            android:textColor="#0029FF"
+            android:id="@+id/dataandtime"
             android:layout_gravity="center"
-            android:gravity="center"
+            android:layout_marginTop="30dp"
             />
+
 
     </LinearLayout>
 </ScrollView>

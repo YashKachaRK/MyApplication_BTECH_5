@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".datetime">
+
+
+    <Button
+        android:layout_margin="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a Date"
+        android:id="@+id/pickdate"
+        />
+
+    <TextView
+        android:layout_margin="20dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Text"
+        android:textSize="20dp"
+        android:id="@+id/t1"
+
+        />
+
+    <Button
+        android:layout_margin="20dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pick a Time"
+        android:id="@+id/picktime"
+
+        />
+
+
+    <TextView
+        android:layout_margin="20dp"
+
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Text"
+        android:textSize="20dp"
+        android:id="@+id/t2"
+        />
+</LinearLayout>
