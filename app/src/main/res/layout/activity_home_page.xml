@@ -24,6 +24,28 @@
             android:layout_marginTop="30dp"
             />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Calculate"
+            android:textSize="30dp"
+            android:textColor="#0029FF"
+            android:id="@+id/calculate"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Image Chnager"
+            android:textSize="30dp"
+            android:textColor="#0029FF"
+            android:id="@+id/imgchanger"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            />
+
+
 
     </LinearLayout>
 </ScrollView>

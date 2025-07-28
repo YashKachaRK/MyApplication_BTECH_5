@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".Image_changer"
+            android:exported="false" />
+        <activity
+            android:name=".Calculate"
+            android:exported="false" />
+        <activity
             android:name=".datetime"
             android:exported="false" />
         <activity
